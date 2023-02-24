@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<title>Weather App</title>
+ </head>
+   <body>
+    <div class="container">
+      <div class="header">
+       <h2>Weather App</h2>
+        <div class="set_c">
+         <i class="fa fa-cog"></i>
+        </div>
+       </div>
+      <div class="w_cont">
+    <div class="search_div">
+  <input type="text" placeholder="Search city name...">
+  <i class="fa fa-search"></i>
+    </div>
+       <div class="all">
+         <div class="weather_in">Weather in          
+           <span>Loading...</span>
+             </div>
+               <div class="temp">null°C</div>
+                <li>
+              <div class="conditions">
+            <div class="icon"></div>
+          <div class="condition"></div>
+        </div>
+      </li>
+    <li>
+  <div class="humidity">
+    <img class="country_flag">
+      <span class="flag"></span>Country:
+        <span class="country"></span>
+          </div>
+            </li>
+              <li>
+               <div class="humidity">
+             <i class="fa fa-leaf"></i>Humidity:       
+           <span class="humi"></span>
+         </div>
+       </li>
+     <li>
+   <div class="humidity">
+ <i class="fa fa-cloud"></i>Clouds: <span class="clouds"></span>
+    </div>
+       </li>
+         <li>
+           <div class="humidity">
+             <i class="fa fa-wind"></i>Wind speed:         
+              <span class="wind"></span>
+            </div>
+          </li>
+        </div>
+      <div class="loader">
+    <div class="cloud"></div>
+  </div>
+</div>
+  <div class="time_c">
+     <div class="loader2">
+       <div class="cloud"></div>
+         </div>
+           <div class="all">
+             <li>
+               <div class="humidity">
+             <i class="fa fa-area-chart">
+           </i>Time Zone:         
+         <span class="tz"></span>
+        </div>
+      </li>
+    <li>
+  <div class="humidity">
+ <i class="fa fa-clock"></i>Local Time:         
+  <span class="local_time"></span>
+    </div>
+       </div>
+         </div>
+            <div class="settings_cont">
+              <div class="set_div">
+                <div class="s_header">Settings
+               </div>
+             <div class="body">
+           <li>
+         <div class="humidity hu2">
+       <i class="fa fa-gear"></i>Modes:         
+     <span class="modes"> <i class="fa fa-moon"></i><i class="fa fa-sun"></i></span>
+    </div>
+  </li>
+<li>
+  <div class="humidity hu2">
+    <i class="fa fa-thermometer-half"></i>
+          Temperatur scale:         
+        <span class="temp_scale">C° <input type="radio" name="radio" value="c" id="rc" checked> F° <input type="radio" name="radio" value="f" id="rf"></span>
+           </div>
+             </li>
+               <li>
+                <div class="humidity hu2">
+              <i class="fa fa-paint-brush"></i>
+                Change theme    
+            </div>
+           </li>
+         <li>
+       <div class="humidity hu2">
+     <div class="themes">
+   <div class="t"></div>
+ <div class="t"></div>
+   <div class="t"></div>
+    <div class="t"></div>
+      </div>
+        </div>
+           </li>
+             <li>
+               <div class="humidity close_s">
+                 <center>Close</center>
+                </div>
+             </li>
+           </div>
+         </div>
+       </div>
+     </div>
+</body>
+</html>
